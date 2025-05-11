@@ -13,8 +13,8 @@ function Header() {
         <button className="headerBut">Услуги</button></a>
       <a href="#priceID" className="headerA">
         <button className="headerBut">Стоимость</button></a>
-      <a href="#mainID" className="headerA">
-        <button className="headerBut headerButLast">Контакты</button></a>
+      <a href="#reviewsID" className="headerA">
+        <button className="headerBut headerButLast">Отзывы</button></a>
     </div>
 );
 }

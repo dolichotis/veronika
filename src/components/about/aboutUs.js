@@ -3,11 +3,16 @@ import {Carousel, ConfigProvider} from 'antd';
 
 const contentStyle = {
   margin: 0,
-  height: '100px',
-  color: '#fff',
-  lineHeight: '90px',
-  textAlign: 'center',
-  background: '#80756d',
+  minHeight: "100px",        // минимальная высота вместо фиксированной
+  padding: "0 10px",         // добавим паддинг для мобильных устройств
+  color: "#fff",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  textAlign: "center",
+  background: "#80756d",
+  fontSize: "1rem",          // более гибкий размер шрифта
+  lineHeight: "1.4",
 };
 
 const AboutUs = () => (
