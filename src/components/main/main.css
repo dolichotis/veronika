@@ -1,0 +1,24 @@
+.main {
+    /*background-image: url('main.jpg'); /* Путь к изображению */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px; /* Высота блока */
+    display: flex;
+    justify-content: flex-end; /* Выравниваем текст вправо */
+    align-items: center; /* Выравниваем текст по центру вертикально */
+    padding: 20px;
+}
+
+.text-container {
+    background: rgba(128, 117, 109, 0.8); /* Полупрозрачный черный фон */
+    color: white; /* Белый текст */
+    padding: 20px;
+    list-style: none;
+}
+
+.text-container li {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

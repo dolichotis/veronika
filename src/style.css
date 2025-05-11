@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(//fonts/Roboto-Regular.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: rgba(182, 178, 159, 0.3);
+    color: #111111;
+    min-width: 230px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+}
+
+.app {
+    margin: 0 auto;
+}
+
+.h2style {
+    color: #544e49;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.divBlockStyle {
+    width: 90%;
+    margin: 0 auto;
+}

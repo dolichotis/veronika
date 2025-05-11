@@ -1,0 +1,32 @@
+.headerBlock {
+    background-color: #c8e1bb;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerA {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headerA .headerBut {
+    font: 16px Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: block;
+    width: 100%;
+    padding: 19px 0;
+    border: none;
+    background-color: #80756d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.headerBut:hover {
+    background-color: #756b64;
+    border-radius: 0px;
+}
