@@ -4,6 +4,7 @@
 
 .headerBlock {
     background-color: #80756d;
+    height: 57px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

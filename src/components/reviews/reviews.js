@@ -123,6 +123,20 @@ const imageGridStyle = {
   marginTop: '12px',
 };
 
+const avito = {
+  color: '#3b3634',
+  display: 'block',
+  textAlign: 'center',
+  marginTop: '20px',
+  fontWeight: 'bold',
+  textDecoration: 'none',
+  fontSize: '16px',
+}
+
+const avitoImg = {
+  width: '55px',
+}
+
 const Reviews = () => (
   <div className="divBlockStyle" style={{ padding: '24px' }}>
     <h2 className="h2style" id="reviewsID">Отзывы</h2>
@@ -162,6 +176,15 @@ const Reviews = () => (
         </div>
       ))}
     </Carousel>
+    <a style={avito}
+       href='https://www.avito.ru/egorevsk/predlozheniya_uslug/zamena_ventsov_doma_3104702037?utm_campaign=native&utm_medium=item_page_ios&utm_source=soc_sharing'>
+      Еще больше отзывов смотрите на {' '}
+      <img
+        src='/img/avito.svg'
+        alt="Avito"
+        style={avitoImg}
+      />
+    </a>
   </div>
 );
 
