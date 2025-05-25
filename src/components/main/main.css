@@ -1,9 +1,9 @@
 .main {
-    background-image: url('main2.jpg'); /* Путь к изображению */
+    background-image: url('main3.jpeg'); /* Путь к изображению */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 450px; /* Высота блока */
+    height: 450PX; /* Высота блока */
     display: flex;
     justify-content: flex-end; /* Выравниваем текст вправо */
     align-items: center; /* Выравниваем текст по центру вертикально */
@@ -21,4 +21,8 @@
     margin: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.mainImg {
+    width: 50%;
 }
