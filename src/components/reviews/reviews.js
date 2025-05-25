@@ -35,10 +35,10 @@ const reviews = [
       'тебе Иван вы по настоящему мастера своего дела.',
     images: [
       'https://60.img.avito.st/image/1/1.KriOera5LAw6WZDTNzc_s65UhlM834bTLFmLUzzPglM.oX_o-Oj__Q3Y1WNBIJ04CPeM2mhGVW6vK5LSWiCSPxk',
-      'https://60.img.avito.st/image/1/1.KriOera5LAw6WZDTNzc_s65UhlM834bTLFmLUzzPglM.oX_o-Oj__Q3Y1WNBIJ04CPeM2mhGVW6vK5LSWiCSPxk',
+      'https://30.img.avito.st/image/1/1.h3ath7a5gcIZpD0dFJDkRo2pK50fIisdD6QmnR8yL50.f_kS4f6ekW2bkUFvPYp6d8FZ0fzP82xi-e_Q-k3Mm0Y',
       'https://40.img.avito.st/image/1/1.WjLvW7a5XIZbeOBZVnZ-PM919tld_vZZTXj72V3u8tk.dBGHZpMyN-dhn-5Awz1BqwvQwojuGttOaXhbAcnPK68',
       'https://50.img.avito.st/image/1/1.G0EHEba5HfWzMqEqvj4WSSc_t6q1tLcqpTK6qrWks6o.DHGz7CZ_3uI3G1KrY3zrlKxgEc3u1bNjsT9BHLOaACM',
-      'https://50.img.avito.st/image/1/1.G0EHEba5HfWzMqEqvj4WSSc_t6q1tLcqpTK6qrWks6o.DHGz7CZ_3uI3G1KrY3zrlKxgEc3u1bNjsT9BHLOaACM',
+      'https://40.img.avito.st/image/1/1.9xqtiba58a4Zqk1xFP7NE42nW_EfLFtxD6pW8R88X_E.h0OuOmioEWXKVqE7TzesLgHElqMJPe_tCSPww-9_3qw',
       'https://50.img.avito.st/image/1/1.GUFwaba5H_XESqMqyUIUSVBHtarCzLUq0kq4qsLcsao._40K4ddxc7miyvlWXmyIWiEmIT4Hjvyocpoiv6uAzk0',
       ]
   },
@@ -54,10 +54,10 @@ const reviews = [
       'ценам. Выражаем огромную благодарность Ивану за выполненную работу и планируем ещё ни один ' +
       'раз обратиться к нему за помощью.',
     images: [
-      'https://50.img.avito.st/image/1/1.GUFwaba5H_XESqMqyUIUSVBHtarCzLUq0kq4qsLcsao._40K4ddxc7miyvlWXmyIWiEmIT4Hjvyocpoiv6uAzk0',
+      'https://70.img.avito.st/image/1/1.LouDMLa5KD83E5TgOnUjqMxdgWAxlYLgIROPYDGFhmA.le6doO7SAk4iiQTlWnLbsJC1HrYLXpHvSaVKLBjAlGk',
       'https://90.img.avito.st/image/1/1.poucMLa5oD8oExzgJWXVqNNdCWAulQrgPhMHYC6FDmA.YZfDJhCzUs6EPQjzz5Z0o8eaUPTVwK98Z0Oi88zGo4g',
       'https://90.img.avito.st/image/1/1.YvdPlba5ZEP7ttic9sgG2wD4zRz9MM6c7bbDHP0gyhw.7au95oFyek6u_sfqz1IQQOUxLYqVpaWUVr0czoPsYUs',
-      'https://90.img.avito.st/image/1/1.YvdPlba5ZEP7ttic9sgG2wD4zRz9MM6c7bbDHP0gyhw.7au95oFyek6u_sfqz1IQQOUxLYqVpaWUVr0czoPsYUs',
+      'https://30.img.avito.st/image/1/1.Vyv7hba5UZ9Ppu1AQrIXCLTo-MBJIPtAWab2wEkw_8A.u68cFqbmAxCSpjvpfSmpkQP0mvLcHy3cNqD96LCDYB8',
       'https://40.img.avito.st/image/1/1.RZcto7a5QyOZgP_8lLAhtWLO6nyfBun8j4DkfJ8W7Xw.HISts5iiqk9r4P0lsHSQvx9PLybUMNUZyLymcwiGQGk',
       'https://60.img.avito.st/image/1/1.XXC4t7a5W8QMlOcbAZQNXPfa8psKEvEbGpT8mwoC9Zs.YgYDJS2JR3ZBqWUk0zDShPg5vniHRBji3FaLXYvpsMw',
     ]
@@ -77,7 +77,7 @@ const reviews = [
       'https://50.img.avito.st/image/1/1.q-Bg07a5rVTU8BGL2Zy8txy8BAvSdgeLwvAKC9JmAws.SuvR7D--9ol1TfflnaitjwMQ1zNEq_uts-LwSd3Xwlg',
       'https://40.img.avito.st/image/1/1.utOzSLa5vGcHawC4CiWthM8nFTgB7Ra4EWsbOAH9Ejg.M2yaSWdu123vwUsxcC6ojs5Ok5XsfFNVGaqyvRRLKiw',
       'https://00.img.avito.st/image/1/1.4cTvY7a553BbQFuvVjj3k5MMTi9dxk2vTUBAL13WSS8.aFdHyTjWYuyqY9pcZEBZ24WzWYFeLBbJT_CzgY8Q9Z4?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=',
-      'https://00.img.avito.st/image/1/1.4cTvY7a553BbQFuvVjj3k5MMTi9dxk2vTUBAL13WSS8.aFdHyTjWYuyqY9pcZEBZ24WzWYFeLBbJT_CzgY8Q9Z4?cqp=2.ZTpOdDGMwjQ9FxykYYx1emcExdwnB4QJTJ3gQLJr84nkJsv0XyRRJhYQ4iKI_UhK0gA=',
+      'https://80.img.avito.st/image/1/1.KgCOpra5LLQ6hZBrN-s_V_LJhes8A4ZrLIWL6zwTgus.Gvqzs6EWrDIXZgQVREwZAHTWkkd4BQ7GRSarnaFkezA',
       'https://50.img.avito.st/image/1/1.ia92jLa5jxvCrzPEz4f2-QrjJkTEKSXE1K8oRMQ5IUQ.XXB9ZykQVxIXBL5ApITLU7YEN7WmFPILSPBwpcKM8EE',
     ]
   },
