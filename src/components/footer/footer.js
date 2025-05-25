@@ -63,8 +63,8 @@ const iconRow = {
 
 const iconStyle = {
   color: "#ffffff",
-  width: 40,
-  height: 24,
+  width: 30,
+  height: 30,
   filter: "brightness(0) invert(1)", // для Avito логотипа
 };
 
