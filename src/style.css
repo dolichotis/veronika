@@ -35,15 +35,20 @@ body {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /* расстояние между линиями и текстом */
 }
 
+.h2style::before,
 .h2style::after {
     content: "";
-    display: block;
+    flex-grow: 1;
     height: 2px;
-    width: 30%;
+    width: 20px;
     background-color: rgba(128, 117, 109, 0.68);
-    margin: 8px auto 0;
+    border-radius: 1px;
 }
 
 .divBlockStyle {
