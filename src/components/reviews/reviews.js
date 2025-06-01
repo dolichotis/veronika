@@ -138,7 +138,7 @@ const avitoImg = {
 }
 
 const Reviews = () => (
-  <div className="divBlockStyle" style={{ padding: '24px' }}>
+  <div className="divBlockStyle" >
     <h2 className="h2style" id="reviewsID">Отзывы</h2>
     <Carousel arrows infinite={true}>
       {reviews.map((review, index) => (

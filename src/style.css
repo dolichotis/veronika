@@ -7,6 +7,8 @@ html,
 body {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -26,10 +28,22 @@ body {
 }
 
 .h2style {
+    position: relative;
+    font-style: oblique;
+    text-shadow: 2px 2px 9px rgba(128, 117, 109, 0.68);
     color: #544e49;
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
+}
+
+.h2style::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30%;
+    background-color: rgba(128, 117, 109, 0.68);
+    margin: 8px auto 0;
 }
 
 .divBlockStyle {

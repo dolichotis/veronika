@@ -39,10 +39,10 @@ function Footer() {
 const footer = {
   backgroundColor: "#756b64",
   color: '#ffffff',
-  padding: "20px",
+  padding: "10px",
   textAlign: "center",
   fontSize: "16px",
-  marginTop: "4px",
+  marginTop: "20px",
 };
 
 const contactItem = {

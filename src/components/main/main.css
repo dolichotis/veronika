@@ -5,9 +5,10 @@
     background-repeat: no-repeat;
     height: 450PX; /* Высота блока */
     display: flex;
-    justify-content: flex-end; /* Выравниваем текст вправо */
+    justify-content: center;
     align-items: center; /* Выравниваем текст по центру вертикально */
     padding: 20px;
+    text-align: center;
 }
 
 .text-container {
@@ -21,6 +22,14 @@
     margin: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.text-container li::before {
+    content: "▸"; /* Стрелочка, можно заменить на другой символ */
+    color: #ffffff; /* Цвет стрелочки */
+    display: inline-block;
+    width: 1em; /* Пространство перед текстом */
+    margin-right: 10px; /* Отступ между стрелкой и текстом */
 }
 
 .mainImg {

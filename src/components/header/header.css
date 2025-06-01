@@ -26,7 +26,7 @@
 }
 
 .headerA .headerBut {
-    font: 16px Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 15px Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     display: block;
     width: 100%;
     padding: 19px 0;
@@ -35,11 +35,31 @@
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-transform: uppercase;
+    border-left: 1px solid #756b64;
+    border-right: 1px solid #756b64;
 }
 
 .headerBut:hover {
     background-color: #756b64;
     border-radius: 0px;
+}
+
+.iconRow {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.iconStyle {
+    color: #ffffff;
+    filter: brightness(0) invert(1);
+}
+
+.avitoIconStyle {
+    width: 35px;
 }
 
 /* Иконка бургер-меню */

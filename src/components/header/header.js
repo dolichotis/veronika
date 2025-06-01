@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
+import {MenuOutlined, CloseOutlined, WhatsAppOutlined, SendOutlined} from '@ant-design/icons';
 import './header.css';
 
 function Header() {
@@ -13,19 +13,41 @@ function Header() {
       <div className="headerBlock">
         <div className="desktopMenu">
           <a href="#mainID" className="headerA">
-            <button className="headerBut headerButFirst">Главная</button></a>
+            <button className="headerBut headerButFirst">Главная</button>
+          </a>
           <a href="#aboutID" className="headerA">
-            <button className="headerBut">О нас</button></a>
+            <button className="headerBut">О нас</button>
+          </a>
           <a href="#servicesID" className="headerA">
-            <button className="headerBut">Услуги</button></a>
+            <button className="headerBut">Услуги</button>
+          </a>
           <a href="#priceID" className="headerA">
-            <button className="headerBut">Стоимость</button></a>
+            <button className="headerBut">Стоимость</button>
+          </a>
           <a href="#reviewsID" className="headerA">
-            <button className="headerBut headerButLast">Отзывы</button></a>
+            <button className="headerBut headerButLast">Отзывы</button>
+          </a>
+          <a className='iconRow'>
+            <a
+              href="https://www.avito.ru/egorevsk/predlozheniya_uslug/zamena_ventsov_doma_3104702037"
+              target="_blank" rel="noopener noreferrer">
+              <img
+                src='/img/avito.svg'
+                alt="Avito"
+                className='iconStyle avitoIconStyle'
+              />
+            </a>
+            <a href="https://wa.me/79138903514" target="_blank" rel="noopener noreferrer">
+              <WhatsAppOutlined className='iconStyle'/>
+            </a>
+            <a href="https://t.me/+79138903514" target="_blank" rel="noopener noreferrer">
+              <SendOutlined className='iconStyle'/>
+            </a>
+          </a>
         </div>
 
         <div className="mobileMenuIcon" onClick={toggleMenu}>
-          {menuOpen ? <CloseOutlined /> : <MenuOutlined />}
+          {menuOpen ? <CloseOutlined/> : <MenuOutlined/>}
         </div>
       </div>
 
@@ -41,5 +63,6 @@ function Header() {
     </div>
   );
 }
+
 
 export default Header;
