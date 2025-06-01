@@ -1,22 +1,33 @@
 .main {
-    background-image: url('main3.jpeg'); /* Путь к изображению */
+    position: relative; /* чтобы overlay позиционировался относительно .main */
+    background-image: url('main3.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 450PX; /* Высота блока */
+    height: 450px;
     display: flex;
     justify-content: center;
-    align-items: center; /* Выравниваем текст по центру вертикально */
+    align-items: center;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(128, 117, 109, 0.7); /* цвет и прозрачность */
+    z-index: 1;
 }
 
 .text-container {
-    background: rgba(128, 117, 109, 0.8); /* Полупрозрачный фон */
-    color: white; /* Белый текст */
+    position: relative;
+    color: white;
     padding: 20px;
+    z-index: 2; /* чтобы текст был поверх overlay */
     list-style: none;
 }
+
 
 .text-container li {
     margin: 10px;
