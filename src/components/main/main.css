@@ -1,6 +1,6 @@
 .main {
     position: relative; /* чтобы overlay позиционировался относительно .main */
-    background-image: url('main3.jpeg');
+    background-image: url('main4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,17 +30,33 @@
 
 
 .text-container li {
-    margin: 10px;
+    margin: 10px 0;
+    padding: 10px 15px;
     font-size: 18px;
     font-weight: bold;
+    background-color: rgba(182, 178, 159, 0.4);
+    border-radius: 8px;
+    max-width: 100%;
+    position: relative;
+    width: fit-content;
+}
+
+.text-container li:nth-child(2) {
+    margin-left: 30px;
+}
+.text-container li:nth-child(3) {
+    margin-left: 60px;
+}
+.text-container li:nth-child(4) {
+    margin-left: 90px;
 }
 
 .text-container li::before {
-    content: "▸"; /* Стрелочка, можно заменить на другой символ */
-    color: #ffffff; /* Цвет стрелочки */
+    content: "▸";
+    color: #ffffff;
     display: inline-block;
-    width: 1em; /* Пространство перед текстом */
-    margin-right: 10px; /* Отступ между стрелкой и текстом */
+    width: 1em;
+    margin-right: 10px;
 }
 
 .mainImg {
